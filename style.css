@@ -52,7 +52,7 @@ ul li {
 }
 
 ul li:hover {
-    transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
     transition: 0.3s;
 }
 
@@ -71,6 +71,7 @@ nav a {
     color: #000;
     padding: 0 1.5rem;
 }
+
 /* Mobile Navigation Bar Styling */
 
 #hamburger-icon {
@@ -178,8 +179,8 @@ button {
 }
 
 button:hover {
-background: #fff;
-color: #000;
+    background: #fff;
+    color: #000;
 }
 
 .column-right {
@@ -194,7 +195,7 @@ color: #000;
     height: 100%;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .hero-container {
         grid-template-columns: 1fr;
     }
