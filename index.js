@@ -1,3 +1,3 @@
 function toggleMenuMobile(menu) {
-menu.classList.toggle('open');
+menu.classList.toggle('open')
 }
